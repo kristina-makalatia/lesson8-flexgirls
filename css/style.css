@@ -1,0 +1,68 @@
+/*background image example*/
+.bg-image {
+	background-image: url(../images/image.jpg);
+	height: 500px;
+	width: 900px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+}
+
+
+/*flex examples*/
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	background-color: grey;
+}
+.left-block {
+	width: 570px;
+	height: 320px;
+	background-color: lightblue;
+	margin-right: 30px;
+}
+.video-youtube {
+	width: 100%;
+	height: 100%;
+}
+.right-block {
+	width: 570px;
+	height: 320px;
+	background-color: yellow;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.video-wraper {
+	display: flex;
+}
+
+
+
+/*section#2*/
+.left-article {
+	width: 570px;
+	background-color: lightblue;
+	/*margin-right: 29px;*/
+}
+.right-article {
+	width: 570px;
+	background-color: pink;
+}
+.article-wraper {
+	display: flex;
+	justify-content: space-between;
+}
+.image-block {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.text {
+	width: 355px;
+}
+.read {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 10px;
+}
